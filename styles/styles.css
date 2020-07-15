@@ -46,3 +46,68 @@ li a:hover {
 .active {
   background-color: #4CAF50;
 }
+.container{
+    border: 5px solid #4CAF50;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+.container div{
+    margin: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+.item1{
+    background-color: blue;
+}
+.item2{
+    background-color: red;
+}
+.item3{
+    background-color: yellow;
+}
+
+.container-1{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+.flex-box-container-1 div{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+}
+
+.container-2{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-2{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+.flex-box-container-2 img{
+    display: flex;
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+}
